@@ -1,0 +1,47 @@
+@import '../colors';
+
+$default-border: 1px solid black;
+
+.add-todo {
+  border-bottom: dotted 1px $paper-line-grey;
+  font-size: 24px;
+  
+  .add-todo-input {
+    height: 33px;
+    margin: 10px;
+    padding-left: 5px;
+    width: 310px;;
+    border: none;
+    border-bottom: $default-border;
+    background-color: $notebook-yellow;
+  }
+
+  .add-todo-btn {
+    width: 70px;
+    margin: 10px;
+    font-weight: 800;
+    font-size: 18px;
+    font-family: Verdana, Geneva, sans-serif;
+  }
+
+  .column {
+    width: 52px;
+    display: inline-block;
+  }
+
+  .clear-completed {
+    color: $success-green;
+    padding-left: 13px;
+    cursor: pointer;
+    font-size: 32px;
+  }
+
+  .datepicker {
+    width: 120px;
+    height: 33px;
+    border: none;
+    border-bottom: $default-border;
+    background-color: $notebook-yellow;
+    margin: 10px 5px 0 5px;
+  }
+}

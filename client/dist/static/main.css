@@ -1,0 +1,113 @@
+.add-todo {
+  border-bottom: dotted 1px grey;
+  font-size: 24px; }
+  .add-todo .add-todo-input {
+    height: 33px;
+    margin: 10px;
+    padding-left: 5px;
+    width: 310px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: #E6DD8D; }
+  .add-todo .add-todo-btn {
+    width: 70px;
+    margin: 10px;
+    font-weight: 800;
+    font-size: 18px;
+    font-family: Verdana, Geneva, sans-serif; }
+  .add-todo .column {
+    width: 52px;
+    display: inline-block; }
+  .add-todo .clear-completed {
+    color: #498712;
+    padding-left: 13px;
+    cursor: pointer;
+    font-size: 32px; }
+  .add-todo .datepicker {
+    width: 120px;
+    height: 33px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: #E6DD8D;
+    margin: 10px 5px 0 5px; }
+
+.todo-item {
+  font-size: 24px;
+  margin-left: -32px;
+  padding: 10px 0; }
+  .todo-item .todo-item-text, .todo-item .todo-item-due-date {
+    display: inline-block; }
+  .todo-item .todo-item-due-date {
+    padding: 8px;
+    color: #F80009; }
+  .todo-item .todo-item-text, .todo-item .completed-todo-item-text {
+    margin: 0 20px; }
+  .todo-item .completed {
+    color: #9EA19F;
+    text-decoration: line-through;
+    font-style: italic; }
+  .todo-item .complete-todo, .todo-item .remove-todo, .todo-item .empty-todo {
+    border: 2px solid #9EA19F;
+    color: #E6DD8D;
+    -webkit-transition: color 0.25s ease-in-out;
+    -moz-transition: color 0.25s ease-in-out;
+    -ms-transition: color 0.25s ease-in-out;
+    -o-transition: color 0.25s ease-in-out;
+    transition: color 0.25s ease-in-out;
+    border-radius: 50%;
+    margin-left: 10px;
+    width: 34px;
+    height: 34px;
+    font-size: 30px; }
+  .todo-item .complete-todo, .todo-item .remove-todo {
+    cursor: pointer; }
+    .todo-item .complete-todo:hover, .todo-item .remove-todo:hover {
+      -webkit-transition: color 0.7s ease-in-out;
+      -moz-transition: color 0.7s ease-in-out;
+      -ms-transition: color 0.7s ease-in-out;
+      -o-transition: color 0.7s ease-in-out;
+      transition: color 0.7s ease-in-out; }
+  .todo-item .complete-todo:hover {
+    color: #498712; }
+  .todo-item .remove-todo {
+    padding-left: 3px;
+    padding-bottom: 2px; }
+    .todo-item .remove-todo:hover {
+      color: #77200F; }
+
+.todo-list ul {
+  list-style-type: none; }
+
+.todo-list li {
+  border-bottom: dotted 1px grey; }
+  .todo-list li:last-child {
+    border-bottom: none; }
+
+@font-face {
+  font-family: noteFont;
+  src: url("fonts/note-font/gnyrwn971-webfont.eot");
+  src: url("fonts/note-font/gnyrwn971-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/note-font/gnyrwn971-webfont.woff2") format("woff2"), url("fonts/note-font/gnyrwn971-webfont.woff") format("woff"), url("fonts/note-font/gnyrwn971-webfont.ttf") format("truetype"), url("fonts/note-font/gnyrwn971-webfont.svg#gunny_rewrittenregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+body {
+  background-color: #F5F5F5;
+  width: 600px;
+  margin: 0 auto;
+  padding: 0;
+  font-family: noteFont; }
+
+.todos {
+  min-height: 571px;
+  background-color: #E6DD8D;
+  margin: 20px;
+  border-radius: 15px;
+  width: 55%; }
+
+.lines {
+  display: inline-block;
+  border-left: 1px solid #FFAA9F;
+  border-right: 1px solid #FFAA9F;
+  width: 6px;
+  height: 60px;
+  margin: -25px 5px -24px 5px; }

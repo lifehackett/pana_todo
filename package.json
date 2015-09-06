@@ -1,0 +1,51 @@
+{
+  "name": "pana_todo",
+  "version": "1.0.0",
+  "description": "Another Todo App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lifehackett/pana_todo.git"
+  },
+  "author": "Conor Hackett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lifehackett/pana_todo/issues"
+  },
+  "homepage": "https://github.com/lifehackett/pana_todo#readme",
+  "dependencies": {
+    "backbone": "^1.2.2",
+    "backbone.marionette": "^2.4.2",
+    "compass": "^0.1.1",
+    "handlebars": "^4.0.2",
+    "jquery": "^2.1.4",
+    "jquery-ui": "^1.10.5",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "babel-core": "^5.8.23",
+    "babelify": "^6.3.0",
+    "browserify": "^9.0.3",
+    "express": "^4.13.3",
+    "gulp": "^3.8.11",
+    "gulp-concat": "^2.6.0",
+    "gulp-jshint": "^1.10.0",
+    "gulp-less": "^3.0.2",
+    "gulp-notify": "^2.2.0",
+    "gulp-sass": "^2.0.4",
+    "gulp-util": "^3.0.4",
+    "http": "0.0.0",
+    "jshint-jsx": "^0.4.1",
+    "jshint-stylish": "^1.0.1",
+    "merge": "^1.2.0",
+    "node-notifier": "^4.1.2",
+    "path": "^0.11.14",
+    "reactify": "^1.1.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.0.0"
+  }
+}

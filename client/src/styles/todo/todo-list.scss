@@ -1,0 +1,15 @@
+@import '../colors';
+
+.todo-list {
+  ul {
+    list-style-type: none;
+  }
+
+  li {
+    border-bottom: dotted 1px $paper-line-grey;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}
